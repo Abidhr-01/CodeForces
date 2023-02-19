@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int weight;
+    scanf("%d",&weight);
+
+    if ( weight <= 2 || weight %2 != 0)
+    {
+        printf("No\n");
+    }
+    else
+    {
+        printf("Yes\n");
+    }
+    
+    
+     return 0;
+}
